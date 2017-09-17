@@ -1,0 +1,57 @@
+#methods {
+	list-style-type: none;
+	float: right;
+	width: 45%;
+	padding: 0;
+	margin: 0;
+}
+.method button {
+	width: 100%;
+	padding: 5px;
+	height: 40px;
+	margin: 5px;
+	background-color: #4CAF50;
+	border: none;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 1.1em;
+	cursor: pointer;
+	outline: none;
+	transition: all .2s;
+}
+
+.method button .default {
+	display: inline-block;
+}
+.method button .hovered {
+	display: none;
+}
+
+.method button:hover {
+	background-color: #EFEFEF;
+	color: #4CAF2F;
+}
+
+.method button:hover .hovered {
+	display: inline-block;
+}
+.method button:hover .default {
+	display: none;
+}
+.method button:active {
+	background-color: #1C4F20;
+}
+#input {
+	float: left;
+	width: 45%;
+	height: 458px;
+	font-family: sans-serif;
+	font-size: 1.3em;
+	transition: outline .2s ease-in-out;
+	outline: none;
+}
+#input:focus {
+	outline: 5px solid lightblue;
+}
